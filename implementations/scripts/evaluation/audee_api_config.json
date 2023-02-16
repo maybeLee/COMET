@@ -1,0 +1,132 @@
+{
+  "Conv2D": {
+    "filters": [0, null],
+    "kernel_size": [0, null],
+    "strides": [0, null],
+    "padding": ["valid", "same"],
+    "activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear", null],
+    "kernel_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling",
+      "Orthogonal", "lecun_uniform", "glorot_normal",  "glorot_uniform", "he_normal", "lecun_normal", "Identity"]
+  },
+  "DepthwiseConv2D": {
+    "kernel_size": [0, null],
+    "strides": [0, null],
+    "padding": ["valid", "same"],
+    "activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear", null],
+    "kernel_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling",
+      "Orthogonal", "lecun_uniform", "glorot_normal",  "glorot_uniform", "he_normal", "lecun_normal", "Identity"]
+  },
+  "SeparableConv2D": {
+    "filters": [0, null],
+    "kernel_size": [0, null],
+    "strides": [0, null],
+    "padding": ["valid", "same"],
+    "activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear", null],
+    "kernel_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling",
+      "Orthogonal", "lecun_uniform", "glorot_normal",  "glorot_uniform", "he_normal", "lecun_normal", "Identity"]
+  },
+  "MaxPooling2D": {
+    "pool_size": [0, null],
+    "strides": [0, null],
+    "padding": ["valid", "same"]
+  },
+  "AveragePooling2D": {
+    "pool_size": [0, null],
+    "padding": ["valid", "same", null]
+  },
+  "GlobalMaxPooling2D": {
+    "data_format": ["channels_first", "channels_last"]
+  },
+  "GlobalAveragePooling2D": {
+    "data_format": ["channels_first", "channels_last"]
+  },
+  "ZeroPadding2D": {
+    "padding": [0, null],
+    "data_format": ["channels_first", "channels_last"]
+  },
+  "Flatten": {
+    "data_format": ["channels_first", "channels_last"]
+  },
+  "Dense": {
+    "units": [0, null]
+  },
+  "Activation": {
+    "activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear", null]
+  },
+  "ReLU": {
+    "max_value": [0, null],
+    "negative_slope": [0, null],
+    "threshold": [0, null]
+  },
+  "LeakyReLU": {
+    "alpha": [0, null]
+  },
+  "PReLU": {
+    "alpha_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling",
+      "Orthogonal", "lecun_uniform", "glorot_normal",  "glorot_uniform", "he_normal", "lecun_normal", "Identity"]
+  },
+  "ELU": {
+    "alpha": [0, null]
+  },
+  "ThresholdedReLU": {
+    "theta": [0, null]
+  },
+  "BatchNormalization": {
+    "momentum": [0],
+    "epsilon": [0]
+  },
+  "SimpleRNN": {
+    "units": [0, null],
+    "activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear", null],
+    "dropout": [0],
+    "recurrent_dropout": [0]
+  },
+  "LSTM": {
+    "units": [0, null],
+    "recurrent_activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear"],
+    "unit_forget_bias": [true, false],
+    "dropout": [0, null],
+    "recurrent_dropout": [0, null],
+    "implementation": [1, 2, null]
+  },
+  "GRU": {
+    "units": [0, null],
+    "recurrent_activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear"],
+    "unit_forget_bias": [true, false],
+    "dropout": [0, null],
+    "recurrent_dropout": [0, null],
+    "implementation": [1, 2, null]
+  },
+  "Embedding": {
+    "input_dim": [0, null],
+    "output_dim": [0, null],
+    "mask_zero": [true, false]
+  },
+  "Dropout": {
+    "rate": [0, null],
+    "seed": [null, 1, 2, 3, 4, 5]
+  },
+  "GaussianNoise": {
+    "stddev": [0, null]
+  },
+  "ConvLSTM2D": {
+    "filters": [0, null],
+    "kernel_size": [0, null],
+    "strides": [0, null],
+    "padding": ["valid", "same"],
+    "activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear", null],
+    "recurrent_activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear"],
+    "kernel_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling",
+      "Orthogonal", "lecun_uniform", "glorot_normal",  "glorot_uniform", "he_normal", "lecun_normal", "Identity"],
+    "dropout": [0, null]
+  },
+  "Conv2DTranspose": {
+    "filters": [0, null],
+    "kernel_size": [0, null],
+    "strides": [0, null],
+    "padding": ["valid", "same"],
+    "activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear", null],
+    "kernel_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling",
+      "Orthogonal", "lecun_uniform", "glorot_normal",  "glorot_uniform", "he_normal", "lecun_normal", "Identity"]
+  }
+}

@@ -1,0 +1,10 @@
+**__pycache__**
+**.ipynb_checkpoints**
+**.coverage**
+logs/*
+data/*
+**temp_stdout**
+**.pickle
+all_coverage/*
+**.idea
+**.DS_Store

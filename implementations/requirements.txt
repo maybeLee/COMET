@@ -1,0 +1,14 @@
+pandas
+Pillow==5.1.0
+redis==3.3.2
+scikit-image
+scikit-learn
+scipy==1.1.0
+h5py==2.10.0
+coverage==5.5
+dill
+image
+foolbox==2.4.0
+numba
+scikit-build
+onnx

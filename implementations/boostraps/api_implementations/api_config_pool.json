@@ -1,0 +1,550 @@
+{
+  "Conv1D": {
+    "filters": [0],
+    "kernel_size": [0],
+    "strides": [0],
+    "padding": ["valid", "same", "causal"],
+    "data_format": ["channels_first", "channels_last"],
+    "dilation_rate": [0],
+    "activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear"],
+    "use_bias": [true, false],
+    "kernel_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling",
+      "Orthogonal", "lecun_uniform", "glorot_normal",  "glorot_uniform", "he_normal", "lecun_normal", "Identity"],
+    "bias_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "kernel_regularizer": ["l1", "l2"],
+    "bias_regularizer": ["l1", "l2"],
+    "activity_regularizer": ["l1", "l2"],
+    "kernel_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "bias_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"]
+  },
+  "Conv2D": {
+    "filters": [0],
+    "kernel_size": [0],
+    "strides": [0],
+    "padding": ["valid", "same"],
+    "data_format": ["channels_first", "channels_last"],
+    "dilation_rate": [0],
+    "activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear"],
+    "use_bias": [true, false],
+    "kernel_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling",
+      "Orthogonal", "lecun_uniform", "glorot_normal",  "glorot_uniform", "he_normal", "lecun_normal", "Identity"],
+    "bias_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "kernel_regularizer": ["l1", "l2"],
+    "bias_regularizer": ["l1", "l2"],
+    "activity_regularizer": ["l1", "l2"],
+    "kernel_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "bias_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"]
+  },
+  "Conv3D": {
+    "filters": [0],
+    "kernel_size": [0],
+    "strides": [0],
+    "padding": ["valid", "same"],
+    "data_format": ["channels_first", "channels_last"],
+    "dilation_rate": [0],
+    "activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear"],
+    "use_bias": [true, false],
+    "kernel_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling",
+      "Orthogonal", "lecun_uniform", "glorot_normal",  "glorot_uniform", "he_normal", "lecun_normal", "Identity"],
+    "bias_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "kernel_regularizer": ["l1", "l2"],
+    "bias_regularizer": ["l1", "l2"],
+    "activity_regularizer": ["l1", "l2"],
+    "kernel_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "bias_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"]
+  },
+  "SeparableConv1D": {
+    "filters": [0],
+    "kernel_size": [0],
+    "strides": [0],
+    "padding": ["valid", "same", "causal"],
+    "data_format": ["channels_first", "channels_last"],
+    "dilation_rate": [0],
+    "depth_multiplier": [0],
+    "activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear"],
+    "use_bias": [true, false],
+    "depthwise_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "pointwise_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "bias_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "depthwise_regularizer": ["l1", "l2"],
+    "pointwise_regularizer": ["l1", "l2"],
+    "bias_regularizer": ["l1", "l2"],
+    "activity_regularizer": ["l1", "l2"],
+    "depthwise_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "pointwise_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "bias_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "trainable": [true, false]
+  },
+  "SeparableConv2D": {
+    "filters": [0],
+    "kernel_size": [0],
+    "strides": [0],
+    "padding": ["valid", "same"],
+    "data_format": ["channels_first", "channels_last"],
+    "dilation_rate": [0],
+    "depth_multiplier": [0],
+    "activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear"],
+    "use_bias": [true, false],
+    "depthwise_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "pointwise_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "bias_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "depthwise_regularizer": ["l1", "l2"],
+    "pointwise_regularizer": ["l1", "l2"],
+    "bias_regularizer": ["l1", "l2"],
+    "activity_regularizer": ["l1", "l2"],
+    "depthwise_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "pointwise_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "bias_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"]
+  },
+  "DepthwiseConv1D": {
+    "kernel_size": [0],
+    "strides": [0],
+    "padding": ["valid", "same"],
+    "depth_multiplier": [0],
+    "data_format": ["channels_first", "channels_last"],
+    "dilation_rate": [0],
+    "activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear"],
+    "use_bias": [true, false],
+    "depthwise_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "bias_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "depthwise_regularizer": ["l1", "l2"],
+    "bias_regularizer": ["l1", "l2"],
+    "activity_regularizer": ["l1", "l2"],
+    "depthwise_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "bias_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"]
+  },
+  "DepthwiseConv2D": {
+    "kernel_size": [0],
+    "strides": [0],
+    "padding": ["valid", "same"],
+    "depth_multiplier": [0],
+    "data_format": ["channels_first", "channels_last"],
+    "dilation_rate": [0],
+    "activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear"],
+    "use_bias": [true, false],
+    "depthwise_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "bias_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "depthwise_regularizer": ["l1", "l2"],
+    "bias_regularizer": ["l1", "l2"],
+    "activity_regularizer": ["l1", "l2"],
+    "depthwise_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "bias_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"]
+  },
+  "Conv2DTranspose": {
+    "filters": [0],
+    "kernel_size": [0],
+    "strides": [0],
+    "padding": ["valid", "same"],
+    "output_padding": [0, null],
+    "data_format": ["channels_first", "channels_last"],
+    "dilation_rate": [0],
+    "activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear"],
+    "use_bias": [true, false],
+    "kernel_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling",
+      "Orthogonal", "lecun_uniform", "glorot_normal",  "glorot_uniform", "he_normal", "lecun_normal", "Identity"],
+    "bias_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "kernel_regularizer": ["l1", "l2"],
+    "bias_regularizer": ["l1", "l2"],
+    "activity_regularizer": ["l1", "l2"],
+    "kernel_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "bias_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"]
+  },
+  "Conv3DTranspose": {
+    "filters": [0],
+    "kernel_size": [0],
+    "strides": [0],
+    "padding": ["valid", "same"],
+    "output_padding": [0, null],
+    "data_format": ["channels_first", "channels_last"],
+    "dilation_rate": [0],
+    "activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear"],
+    "use_bias": [true, false],
+    "kernel_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling",
+      "Orthogonal", "lecun_uniform", "glorot_normal",  "glorot_uniform", "he_normal", "lecun_normal", "Identity"],
+    "bias_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "kernel_regularizer": ["l1", "l2"],
+    "bias_regularizer": ["l1", "l2"],
+    "activity_regularizer": ["l1", "l2"],
+    "kernel_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "bias_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"]
+  },
+  "MaxPooling1D": {
+    "pool_size": [0],
+    "strides": [0, null],
+    "padding": ["valid", "same"],
+    "data_format": ["channels_first", "channels_last"]
+  },
+  "MaxPooling2D": {
+    "pool_size": [0],
+    "strides": [0, null],
+    "padding": ["valid", "same"],
+    "data_format": ["channels_first", "channels_last"]
+  },
+  "MaxPooling3D": {
+    "pool_size": [0],
+    "strides": [0, null],
+    "padding": ["valid", "same"],
+    "data_format": ["channels_first", "channels_last"]
+  },
+  "AveragePooling1D": {
+    "pool_size": [0],
+    "strides": [0, null],
+    "padding": ["valid", "same"],
+    "data_format": ["channels_first", "channels_last"]
+  },
+  "AveragePooling2D": {
+    "pool_size": [0],
+    "strides": [0, null],
+    "padding": ["valid", "same"],
+    "data_format": ["channels_first", "channels_last"]
+  },
+  "AveragePooling3D": {
+    "pool_size": [0],
+    "strides": [0, null],
+    "padding": ["valid", "same"],
+    "data_format": ["channels_first", "channels_last"]
+  },
+  "GlobalMaxPooling1D": {
+    "data_format": ["channels_first", "channels_last"],
+    "keepdims": [true, false]
+  },
+  "GlobalMaxPooling2D": {
+    "data_format": ["channels_first", "channels_last"],
+    "keepdims": [true, false]
+  },
+  "GlobalMaxPooling3D": {
+    "data_format": ["channels_first", "channels_last"],
+    "keepdims": [true, false]
+  },
+  "GlobalAveragePooling1D": {
+    "data_format": ["channels_first", "channels_last"],
+    "keepdims": [true, false]
+  },
+  "GlobalAveragePooling2D": {
+    "data_format": ["channels_first", "channels_last"],
+    "keepdims": [true, false]
+  },
+  "GlobalAveragePooling3D": {
+    "data_format": ["channels_first", "channels_last"],
+    "keepdims": [true, false]
+  },
+  "LSTM": {
+    "units": [0],
+    "activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear", null],
+    "recurrent_activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear", null],
+    "use_bias": [true, false],
+    "kernel_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling",
+      "Orthogonal", "lecun_uniform", "glorot_normal",  "glorot_uniform", "he_normal", "lecun_normal", "Identity"],
+    "recurrent_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "bias_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "unit_forget_bias": [true, false],
+    "kernel_regularizer": ["l1", "l2"],
+    "recurrent_regularizer": ["l1", "l2"],
+    "bias_regularizer": ["l1", "l2"],
+    "activity_regularizer": ["l1", "l2"],
+    "kernel_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "recurrent_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "bias_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "dropout": [0],
+    "recurrent_dropout": [0],
+    "return_sequences": [true, false],
+    "return_state": [true, false],
+    "go_backwards": [true, false],
+    "stateful": [true, false],
+    "unroll": [true, false]
+  },
+  "GRU": {
+    "units": [0],
+    "activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear"],
+    "recurrent_activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear"],
+    "use_bias": [true, false],
+    "kernel_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling",
+      "Orthogonal", "lecun_uniform", "glorot_normal",  "glorot_uniform", "he_normal", "lecun_normal", "Identity"],
+    "recurrent_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "bias_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "kernel_regularizer": ["l1", "l2"],
+    "recurrent_regularizer": ["l1", "l2"],
+    "bias_regularizer": ["l1", "l2"],
+    "activity_regularizer": ["l1", "l2"],
+    "kernel_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "recurrent_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "bias_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "dropout": [0],
+    "recurrent_dropout": [0],
+    "return_sequences": [true, false],
+    "return_state": [true, false],
+    "go_backwards": [true, false],
+    "stateful": [true, false],
+    "unroll": [true, false],
+    "reset_after": [true, false]
+  },
+  "SimpleRNN": {
+    "units": [0],
+    "use_bias": [true, false],
+    "kernel_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling",
+      "Orthogonal", "lecun_uniform", "glorot_normal",  "glorot_uniform", "he_normal", "lecun_normal", "Identity"],
+    "recurrent_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "bias_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "kernel_regularizer": ["l1", "l2"],
+    "recurrent_regularizer": ["l1", "l2"],
+    "bias_regularizer": ["l1", "l2"],
+    "activity_regularizer": ["l1", "l2"],
+    "kernel_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "recurrent_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "bias_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "dropout": [0],
+    "recurrent_dropout": [0],
+    "return_sequences": [true, false],
+    "return_state": [true, false],
+    "go_backwards": [true, false],
+    "stateful": [true, false],
+    "unroll": [true, false]
+  },
+  "TimeDistributed": {
+  },
+  "Bidirectional": {
+    "merge_mode": ["sum", "mul", "concat", "ave", null]
+  },
+  "ConvLSTM1D": {
+    "filters": [0],
+    "kernel_size": [0],
+    "strides": [0],
+    "padding": ["valid", "same"],
+    "data_format": ["channels_first", "channels_last"],
+    "dilation_rate": [0],
+    "activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear"],
+    "recurrent_activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear"],
+    "use_bias": [true, false],
+    "kernel_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling",
+      "Orthogonal", "lecun_uniform", "glorot_normal",  "glorot_uniform", "he_normal", "lecun_normal", "Identity"],
+    "recurrent_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "bias_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "unit_forget_bias": [true, false],
+    "kernel_regularizer": ["l1", "l2"],
+    "recurrent_regularizer": ["l1", "l2"],
+    "bias_regularizer": ["l1", "l2"],
+    "activity_regularizer": ["l1", "l2"],
+    "kernel_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "recurrent_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "bias_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "return_sequences": [true, false],
+    "return_state": [true, false],
+    "go_backwards": [true, false],
+    "stateful": [true, false],
+    "dropout": [0],
+    "recurrent_dropout": [0]
+  },
+  "ConvLSTM2D": {
+    "filters": [0],
+    "kernel_size": [0],
+    "strides": [0],
+    "padding": ["valid", "same"],
+    "data_format": ["channels_first", "channels_last"],
+    "dilation_rate": [0],
+    "activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear"],
+    "recurrent_activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear"],
+    "use_bias": [true, false],
+    "kernel_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling",
+      "Orthogonal", "lecun_uniform", "glorot_normal",  "glorot_uniform", "he_normal", "lecun_normal", "Identity"],
+    "recurrent_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "bias_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "unit_forget_bias": [true, false],
+    "kernel_regularizer": ["l1", "l2"],
+    "recurrent_regularizer": ["l1", "l2"],
+    "bias_regularizer": ["l1", "l2"],
+    "activity_regularizer": ["l1", "l2"],
+    "kernel_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "recurrent_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "bias_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "return_sequences": [true, false],
+    "return_state": [true, false],
+    "go_backwards": [true, false],
+    "stateful": [true, false],
+    "dropout": [0],
+    "recurrent_dropout": [0]
+  },
+  "ConvLSTM3D": {
+    "filters": [0],
+    "kernel_size": [0],
+    "strides": [0],
+    "padding": ["valid", "same"],
+    "data_format": ["channels_first", "channels_last"],
+    "dilation_rate": [0],
+    "activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear"],
+    "recurrent_activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear"],
+    "use_bias": [true, false],
+    "kernel_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling",
+      "Orthogonal", "lecun_uniform", "glorot_normal",  "glorot_uniform", "he_normal", "lecun_normal", "Identity"],
+    "recurrent_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "bias_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "unit_forget_bias": [true, false],
+    "kernel_regularizer": ["l1", "l2"],
+    "recurrent_regularizer": ["l1", "l2"],
+    "bias_regularizer": ["l1", "l2"],
+    "activity_regularizer": ["l1", "l2"],
+    "kernel_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "recurrent_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "bias_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "return_sequences": [true, false],
+    "return_state": [true, false],
+    "go_backwards": [true, false],
+    "stateful": [true, false],
+    "dropout": [0],
+    "recurrent_dropout": [0]
+  },
+  "BatchNormalization": {
+    "axis": [-1, -2],
+    "momentum": [0],
+    "epsilon": [0],
+    "center": [true, false],
+    "scale": [true, false],
+    "beta_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling",
+      "Orthogonal", "lecun_uniform", "glorot_normal",  "glorot_uniform", "he_normal", "lecun_normal", "Identity"],
+    "gamma_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling",
+      "Orthogonal", "lecun_uniform", "glorot_normal",  "glorot_uniform", "he_normal", "lecun_normal", "Identity"],
+    "moving_mean_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling",
+      "Orthogonal", "lecun_uniform", "glorot_normal",  "glorot_uniform", "he_normal", "lecun_normal", "Identity"],
+    "moving_variance_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling",
+      "Orthogonal", "lecun_uniform", "glorot_normal",  "glorot_uniform", "he_normal", "lecun_normal", "Identity"],
+    "beta_regularizer": ["l1", "l2"],
+    "gamma_regularizer": ["l1", "l2"],
+    "beta_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "gamma_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"]
+  },
+  "LayerNormalization": {
+    "axis": [-1, -2],
+    "epsilon": [0],
+    "center": [true, false],
+    "scale": [true, false],
+    "beta_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling",
+      "Orthogonal", "lecun_uniform", "glorot_normal",  "glorot_uniform", "he_normal", "lecun_normal", "Identity"],
+    "gamma_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling",
+      "Orthogonal", "lecun_uniform", "glorot_normal",  "glorot_uniform", "he_normal", "lecun_normal", "Identity"],
+    "beta_regularizer": ["l1", "l2"],
+    "gamma_regularizer": ["l1", "l2"],
+    "beta_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "gamma_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"]
+  },
+  "Dropout": {
+  },
+  "SpatialDropout1D": {},
+  "SpatialDropout2D": {
+  },
+  "SpatialDropout3D": {
+  },
+  "GaussianDropout": {},
+  "GaussianNoise": {
+    "stddev": [0]
+  },
+  "ActivityRegularization": {
+    "l1": [0],
+    "l2": [0]
+  },
+  "AlphaDropout": {},
+  "Flatten": {
+    "data_format": ["channels_first", "channels_last"]
+  },
+  "RepeatVector": {
+    "n": [0]
+  },
+  "Permute": {},
+  "Cropping1D": {
+    "cropping": [0]
+  },
+  "Cropping2D": {
+    "cropping": [0]
+  },
+  "Cropping3D": {
+    "cropping": [0]
+  },
+  "UpSampling1D": {
+    "size": [2, 3]
+  },
+  "UpSampling2D": {
+    "data_format": ["channels_first", "channels_last"],
+    "interpolation": ["nearest", "bilinear"]
+  },
+  "UpSampling3D": {
+    "data_format": ["channels_first", "channels_last"]
+  },
+  "ZeroPadding1D": {
+    "padding": [0]
+  },
+  "ZeroPadding2D": {
+    "padding": [0],
+    "data_format": ["channels_first", "channels_last"]
+  },
+  "ZeroPadding3D": {
+    "padding": [0]
+  },
+  "Concatenate": {
+    "axis": [-1, -2]
+  },
+  "Average": {},
+  "Maximum": {},
+  "Minimum": {},
+  "Add": {},
+  "Subtract": {},
+  "Multiply": {},
+  "Dot": {
+    "normalize": [true, false]
+  },
+  "ReLU": {
+    "max_value": [0],
+    "negative_slope": [0],
+    "threshold": [0]
+  },
+  "Softmax": {
+    "axis": [-1, -2]
+  },
+  "LeakyReLU": {
+    "alpha": [0]
+  },
+  "PReLU": {
+    "shared_axes": [-1, -2],
+    "alpha_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling",
+      "Orthogonal", "lecun_uniform", "glorot_normal",  "glorot_uniform", "he_normal", "lecun_normal", "Identity"],
+    "alpha_regularizer": ["l1", "l2"],
+    "alpha_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"]
+  },
+  "ELU": {
+    "alpha": [0]
+  },
+  "ThresholdedReLU": {
+    "theta": [0]
+  },
+  "LocallyConnected1D": {
+    "filters": [0],
+    "kernel_size": [0],
+    "strides": [0],
+    "padding": ["valid"],
+    "data_format": ["channels_first", "channels_last"],
+    "activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear"],
+    "use_bias": [true, false],
+    "kernel_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling",
+      "Orthogonal", "lecun_uniform", "glorot_normal",  "glorot_uniform", "he_normal", "lecun_normal", "Identity"],
+    "bias_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "kernel_regularizer": ["l1", "l2"],
+    "bias_regularizer": ["l1", "l2"],
+    "activity_regularizer": ["l1", "l2"],
+    "kernel_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "bias_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"]
+  },
+  "LocallyConnected2D": {
+    "filters": [0],
+    "kernel_size": [0],
+    "strides": [0],
+    "padding": ["valid", "same"],
+    "data_format": ["channels_first", "channels_last"],
+    "activation": ["softmax", "elu", "selu", "softplus", "softsign", "relu", "tanh", "sigmoid", "hard_sigmoid", "exponential", "linear"],
+    "use_bias": [true, false],
+    "kernel_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling",
+      "Orthogonal", "lecun_uniform", "glorot_normal",  "glorot_uniform", "he_normal", "lecun_normal", "Identity"],
+    "bias_initializer": ["Zeros", "Ones", "Constant", "RandomNormal", "RandomUniform", "TruncatedNormal", "VarianceScaling", "Orthogonal", "glorot_normal",  "glorot_uniform", "he_normal", "he_uniform", "lecun_normal", "lecun_uniform", "Identity"],
+    "kernel_regularizer": ["l1", "l2"],
+    "bias_regularizer": ["l1", "l2"],
+    "activity_regularizer": ["l1", "l2"],
+    "kernel_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"],
+    "bias_constraint": ["Constraint", "MaxNorm", "MinMaxNorm", "NonNeg", "UnitNorm"]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "API": [
+    "/opt/conda/envs/tensorflow/lib/python3.7/site-packages/keras",
+    "/opt/conda/envs/tensorflow/lib/python3.7/site-packages/keras/layers",
+    "/opt/conda/envs/tensorflow/lib/python3.7/site-packages/keras/initializers",
+    "/opt/conda/envs/tensorflow/lib/python3.7/site-packages/keras/layers/normalization",
+    "/opt/conda/envs/tensorflow/lib/python3.7/site-packages/keras/layers/core"
+  ],
+  "Operators": [
+    "/opt/conda/envs/tensorflow/lib/python3.7/site-packages/tensorflow/python/ops",
+    "/root/dl_libraries/tensorflow/tensorflow/tensorflow/core/ops",
+    "/root/dl_libraries/tensorflow/tensorflow/tensorflow/core/kernels",
+    "/root/dl_libraries/tensorflow/tensorflow/tensorflow/core/kernels/linalg",
+    "/root/dl_libraries/tensorflow/tensorflow/tensorflow/core/util"
+  ],
+  "Model": [
+    "/opt/conda/envs/tensorflow/lib/python3.7/site-packages/tensorflow/python/framework",
+    "/root/dl_libraries/tensorflow/tensorflow/tensorflow/core/framework",
+    "/opt/conda/envs/tensorflow/lib/python3.7/site-packages/keras/saving",
+    "/root/dl_libraries/tensorflow/tensorflow/tensorflow/core/grappler/optimizers",
+    "/opt/conda/envs/tensorflow/lib/python3.7/site-packages/keras/engine",
+    "/opt/conda/envs/tensorflow/lib/python3.7/site-packages/keras/utils",
+    "/opt/conda/envs/tensorflow/lib/python3.7/site-packages/tensorflow/python/framework"
+  ]
+}

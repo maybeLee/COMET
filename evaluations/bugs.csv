@@ -1,0 +1,33 @@
+﻿Links,Bugs
+https://github.com/microsoft/onnxruntime/issues/11024 (fixed),1
+https://github.com/keras-team/keras/issues/16273 (fixed),1
+https://github.com/keras-team/keras/issues/16158 (fixed),1
+https://github.com/keras-team/keras/issues/16289 (fixed),1
+"https://github.com/ToriML/onnx2pytorch/issues/33, https://github.com/ToriML/onnx2pytorch/issues/34 (fixed)",1
+https://github.com/keras-team/keras/issues/16927 (fixed),1
+https://github.com/keras-team/keras/issues/16933 (fixed),1
+https://github.com/microsoft/onnxruntime/issues/11173 (confirmed),1
+https://github.com/microsoft/onnxruntime/issues/11010 (confirmed),1
+https://github.com/microsoft/onnxruntime/issues/11241 (confirmed),1
+https://github.com/apache/incubator-mxnet/issues/20947 (confirmed),1
+https://github.com/keras-team/keras/issues/16348 (confirmed),1
+https://github.com/keras-team/keras/issues/16314 (confirmed),2
+https://github.com/onnx/tensorflow-onnx/issues/1875 (confirmed),1
+https://github.com/onnx/tensorflow-onnx/issues/1807 (confirmed),1
+https://github.com/onnx/tensorflow-onnx/issues/1811 (confirmed),1
+https://github.com/keras-team/keras/issues/16492 (confirmed),1
+https://github.com/keras-team/keras/issues/16970 (confirmed),1
+https://github.com/keras-team/keras/issues/17044 (confirmed),1
+https://github.com/onnx/tensorflow-onnx/issues/1903 (confirmed),1
+https://github.com/keras-team/keras/issues/17069,1
+https://github.com/apache/incubator-mxnet/issues/20951,1
+https://github.com/apache/incubator-mxnet/issues/20875,1
+https://colab.research.google.com/drive/1dS9ccEDXmjg89V4W6xrJqeF1GFQep3qB,1
+https://github.com/ToriML/onnx2pytorch/pull/41,1
+https://github.com/ToriML/onnx2pytorch/issues/39,1
+https://github.com/ToriML/onnx2pytorch/issues/44,1
+https://colab.research.google.com/drive/1Cwdeauu7hDJJxwmzxPzULobvQfuxeDUU,1
+https://github.com/awslabs/keras-apache-mxnet/issues/271,1
+https://github.com/apache/incubator-mxnet/issues/20805,1
+https://github.com/apache/incubator-mxnet/issues/20483,1
+,32

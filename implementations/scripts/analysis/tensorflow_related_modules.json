@@ -1,0 +1,152 @@
+{
+  "/opt/conda/envs/tensorflow/lib/python3.7/site-packages/keras":
+          [
+            "backend.py",
+            "regularizers.py",
+            "constraints.py",
+            "activations.py"
+          ],
+  "/opt/conda/envs/tensorflow/lib/python3.7/site-packages/keras/layers":
+          [
+            "convolutional.py",
+            "recurrent.py",
+            "convolutional_recurrent.py",
+            "merge.py",
+            "pooling.py",
+            "advanced_activations.py",
+            "recurrent_v2.py",
+            "noise.py",
+            "wrappers.py"
+          ],
+  "/opt/conda/envs/tensorflow/lib/python3.7/site-packages/keras/layers/normalization": [
+            "batch_normalization.py"
+          ],
+  "/opt/conda/envs/tensorflow/lib/python3.7/site-packages/keras/layers/core": [
+            "lambda_layer.py",
+            "spatial_dropout.py",
+            "reshape.py",
+            "dropout.py",
+            "dense.py",
+            "permute.py",
+            "flatten.py",
+            "repeat_vector.py",
+            "activation.py",
+            "activity_regularization.py"
+          ],
+  "/opt/conda/envs/tensorflow/lib/python3.7/site-packages/keras/saving": [
+            "hdf5_format.py"
+          ],
+  "/opt/conda/envs/tensorflow/lib/python3.7/site-packages/tensorflow/python/ops":
+          [
+            "nn_ops.py", "gen_nn_ops.py", "math_ops.py", "gen_math_ops.py", "array_ops.py", "gen_array_ops.py", "gen_image_ops.py",
+            "image_ops_impl.py", "gen_random_ops.py", "nn_impl.py", "random_ops.py", "gen_linalg_ops.py",
+            "while_v2.py", "tensor_array_ops.py", "gen_list_ops.py", "list_ops.py", "control_flow_ops.py",
+            "control_flow_util_v2.py", "gen_functional_ops.py", "control_flow_util.py", "linalg_ops_impl.py", "clip_ops.py", "linalg_ops.py", "gradients_util.py"
+          ],
+  "/opt/conda/envs/tensorflow/lib/python3.7/site-packages/tensorflow/python/framework":
+          [
+            "ops.py"
+          ],
+  "/root/dl_libraries/tensorflow/tensorflow/tensorflow/core/grappler/optimizers":
+          [
+            "constant_folding.cc",
+            "arithmetic_optimizer.cc",
+            "function_optimizer.cc",
+            "generic_layout_optimizer_transposer.cc",
+            "generic_layout_optimizer_transposer_factory.cc",
+            "generic_layout_optimizer.cc",
+            "meta_optimizer.cc",
+            "shape_optimizer.cc",
+            "loop_optimizer.cc"
+          ],
+  "/root/dl_libraries/tensorflow/tensorflow/tensorflow/core/ops": [
+    "array_ops.cc",
+    "math_ops.cc",
+    "image_ops.cc",
+    "list_ops.cc"
+  ],
+  "/opt/conda/envs/tensorflow/lib/python3.7/site-packages/keras/engine": [
+    "base_layer.py",
+    "base_layer_utils.py",
+    "input_spec.py"
+  ],
+  "/root/dl_libraries/tensorflow/tensorflow/tensorflow/core/framework": [
+    "common_shape_fns.cc",
+    "tensor_shape.h",
+    "tensor_shape.cc",
+    "shape_inference.cc",
+    "tensor.h",
+    "op_kernel.h",
+    "function.cc"
+  ],
+  "/root/dl_libraries/tensorflow/tensorflow/tensorflow/core/util": [
+    "equal_graph_def.cc",
+    "overflow.h",
+    "matmul_bcast.h"
+  ],
+  "/opt/conda/envs/tensorflow/lib/python3.7/site-packages/keras/initializers": [
+    "initializers_v2.py"
+  ],
+  "/opt/conda/envs/tensorflow/lib/python3.7/site-packages/keras/utils": [
+    "generic_utils.py",
+    "conv_utils.py"
+  ],
+  "/root/dl_libraries/tensorflow/tensorflow/tensorflow/core/kernels": [
+    "cudnn_rnn_ops.cc",
+    "conv_ops_3d.cc",
+    "conv_grad_input_ops.cc",
+    "spacetobatch_op.cc",
+    "conv_grad_ops_3d.cc",
+    "batchtospace_op.cc",
+    "split_v_op.cc",
+    "conv_grad_shape_utils.cc",
+    "reduction_ops_common.h",
+    "conv_ops.cc",
+    "reduction_ops_common.cc",
+    "shape_ops.h",
+    "unpack_op.cc",
+    "aggregate_ops.cc",
+    "matmul_op_impl.h",
+    "control_flow_ops.cc",
+    "cwise_ops.h",
+    "cudnn_pooling_gpu.cc",
+    "fused_batch_norm_op.cc",
+    "conv_ops_fused_impl.h",
+    "pad_op.cc",
+    "depthwise_conv_op.cc",
+    "data_format_ops.cc",
+    "list_kernels.cc",
+    "shape_ops.h",
+    "control_flow_ops.cc",
+    "reduction_ops_common.cc",
+    "reduction_ops_common.h",
+    "split_op.cc",
+    "cwise_ops_common.h",
+    "strided_slice_op.cc",
+    "conv_grad_input_ops.h",
+    "matmul_op_impl.h",
+    "conv_grad_shape_utils.cc",
+    "spacetobatch_op.cc",
+    "pack_op.cc",
+    "batchtospace_op.cc",
+    "conv_ops.cc",
+    "maxpooling_op.cc",
+    "tile_ops.cc",
+    "diag_op.cc",
+    "cwise_ops.h",
+    "tensor_list.h",
+    "cwise_ops_common.cc",
+    "aggregate_ops.cc",
+    "strided_slice_op_impl.h",
+    "transpose_op.cc",
+    "relu_op.h",
+    "concat_op.cc",
+    "depthwise_conv_op.h"
+  ],
+  "/root/dl_libraries/tensorflow/tensorflow/tensorflow/core/kernels/linalg": [
+    "matrix_set_diag_op.cc",
+    "linalg_ops_common.cc",
+    "qr_op_impl.h",
+    "matrix_set_diag_op.cc"
+  ]
+}

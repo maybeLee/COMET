@@ -1,0 +1,22 @@
+{
+  "Audee": [
+    "dropout",
+    "implementation",
+    "stddev",
+    "activation",
+    "kernel_initializer",
+    "unit_forget_bias",
+    "mask_zero",
+    "rate",
+    "alpha_initializer",
+    "recurrent_dropout",
+    "recurrent_activation",
+    "filters",
+    "kernel_size",
+    "strides",
+    "pool_size",
+    "units",
+    "padding",
+    "data_format"
+  ]
+}
