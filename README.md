@@ -1,6 +1,3 @@
-## Notice
-The currenct artifact is not ready. We are preparing the final version.
-
 ## Bugs
 
 To date, we have detected 32 bugs, including 21 confirmed bugs and 7 out of those confirmed bugs have been fixed. See [here](./evaluations/bugs.csv) for details.
