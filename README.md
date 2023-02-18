@@ -116,7 +116,7 @@ this tool only collects python coverage).
 
 './seed_selector' and 'mutated_model.json' stores runtime data which should be ignored.
 
-**When running COMET for six hours, we usually generate around 900 valid DL models that can be used for library testing.**
+**When running COMET for six hours, we usually generate around 800-900 valid DL models that can be used for library testing.**
 
 **Please note that the result of COMET in each run is non-deterministic. Therefore, the achieved api call coverage and code coverage may be different.** 
 
